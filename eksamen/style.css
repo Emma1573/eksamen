@@ -1,0 +1,281 @@
+body {
+    background-color: #687672;
+    background-size: 100%;
+    margin: 0;
+}
+
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    display: block;
+
+}
+
+h2 {
+    font-family: font-family: 'Great Vibes', cursive;
+
+    font-size: 1.5em;
+    text-align: center;
+    display: block;
+}
+
+h3 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    display: block;
+}
+
+h4 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1em;
+    font-style: italic;
+}
+
+
+p {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1em;
+    text-align: justify;
+}
+
+.iframe {
+    align-content: center;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #D1A827;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.topnav a:hover {
+    background-color: #F4E7D7;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: black;
+    color: white;
+}
+
+ul {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1em;
+}
+
+li {
+    font-family: 'Futura', sans-serif;
+    font-size: 1em;
+}
+
+.sectionwrapper {
+    /*parent*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    /*child*/
+    flex-basis: 400px;
+    flex-grow: 1;
+    align-self: auto;
+    padding: 5px;
+    margin: 5px;
+}
+
+.columnvideo {
+    /*child*/
+    flex-basis: 400px;
+    flex-grow: 1;
+    align-self: auto;
+    padding: 5px;
+    margin: 5px;
+}
+
+.columnvideo p {
+    text-align: center;
+}
+
+#intro h1 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    display: block;
+    color: black;
+}
+
+#intro img {
+    image-orientation: center;
+    border-radius: 50%;
+    width: 30vw;
+    height: 60%;
+    margin: 0 auto;
+    display: block;
+}
+
+#intro {
+    background-color: ;
+}
+
+#CV {
+    margin: 20px;
+}
+
+#CV h2 {
+    text-align: left;
+}
+
+#CV h3 {
+
+    text-align: left;
+}
+
+#CV li > {
+    text-align: center;
+}
+
+
+#prototype {
+    margin: 10px;
+}
+
+#prototype video {
+    width: 50%;
+}
+
+#prototype h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5em;
+    color: aliceblue;
+    text-align: left;
+
+}
+
+#prototype p {
+    font-family: 'Futura', sans-serif;
+    font-size: 1.1em;
+}
+
+
+
+
+a {
+    font-family: 'Futura', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    display: block;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+}
+
+
+#styletile img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+/*
+faveicon {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: pink;
+    color: white;
+    text-align: center;
+}
+
+#footer p {
+    font-family: 'Futura', sans-serif;
+    font-size: 0.5em;
+    text-align: center;
+}
+
+#footer column {
+    flex-basis: 100px;
+    flex-grow: 1;
+    align-self: auto;
+    padding: 1px;
+    margin: 1px;
+
+}
+
+*/
+
+#persona img {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+
+}
+
+
+#persona p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 80px;
+
+}
+
+#nabc {
+    margin: 30px;
+    padding: 0px;
+}
+
+
+#bmc {
+    margin 30px;
+    padding: 30px;
+}
+
+#bmc img {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+
+
+}
+
+#app img {
+    width: 80%;
+    margin: 50vw;
+    display: block;
+
+
+}
+
+#bruger {
+    margin 30px;
+    padding: 30px;
+}
+
+#bruger img {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+
+
+}
+
+#app img {
+    width: 80%;
+    margin: 50vw;
+    display: block;
+
+
+}
